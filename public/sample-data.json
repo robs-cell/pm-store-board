@@ -1,0 +1,531 @@
+{
+ "configured": false,
+ "sample": true,
+ "tabs": {
+  "Stores": [
+   {
+    "store_id": "doraville",
+    "store_name": "Doraville",
+    "address": "",
+    "lat": "33.8982",
+    "lon": "-84.2833",
+    "phone": "",
+    "mon_fri_hours": "",
+    "saturday_hours": "",
+    "sunday_hours": ""
+   },
+   {
+    "store_id": "decatur",
+    "store_name": "Decatur",
+    "address": "",
+    "lat": "33.7748",
+    "lon": "-84.2963",
+    "phone": "",
+    "mon_fri_hours": "",
+    "saturday_hours": "",
+    "sunday_hours": ""
+   },
+   {
+    "store_id": "conyers",
+    "store_name": "Conyers",
+    "address": "",
+    "lat": "33.6676",
+    "lon": "-84.0177",
+    "phone": "",
+    "mon_fri_hours": "",
+    "saturday_hours": "",
+    "sunday_hours": ""
+   },
+   {
+    "store_id": "albany",
+    "store_name": "Albany",
+    "address": "",
+    "lat": "31.5785",
+    "lon": "-84.1557",
+    "phone": "",
+    "mon_fri_hours": "",
+    "saturday_hours": "",
+    "sunday_hours": ""
+   },
+   {
+    "store_id": "cumming",
+    "store_name": "Cumming",
+    "address": "",
+    "lat": "34.2073",
+    "lon": "-84.1402",
+    "phone": "",
+    "mon_fri_hours": "",
+    "saturday_hours": "",
+    "sunday_hours": ""
+   }
+  ],
+  "Products": [
+   {
+    "part_number": "01131",
+    "brand": "3M",
+    "name": "Platinum Plus Filler",
+    "description": "Premium lightweight body filler",
+    "price": "",
+    "photo_link": "",
+    "drawing": "can",
+    "color": "#e0a422",
+    "on_shelf": "Y",
+    "shelf_order": "1",
+    "on_ask_us": "Y"
+   },
+   {
+    "part_number": "0644",
+    "brand": "U-POL",
+    "name": "Tectium Elite Filler",
+    "description": "Builds like filler, smooth like glaze",
+    "price": "",
+    "photo_link": "",
+    "drawing": "can",
+    "color": "#d6332b",
+    "on_shelf": "Y",
+    "shelf_order": "2",
+    "on_ask_us": "Y"
+   },
+   {
+    "part_number": "416",
+    "brand": "Evercoat",
+    "name": "Metal Glaze",
+    "description": "Finishing and blending putty",
+    "price": "",
+    "photo_link": "",
+    "drawing": "pump",
+    "color": "#3fae6a",
+    "on_shelf": "Y",
+    "shelf_order": "3",
+    "on_ask_us": "Y"
+   },
+   {
+    "part_number": "705",
+    "brand": "Axalta",
+    "name": "1K Fine Putty",
+    "description": "One-part, sands easily",
+    "price": "",
+    "photo_link": "",
+    "drawing": "tube",
+    "color": "#e8662a",
+    "on_shelf": "Y",
+    "shelf_order": "4",
+    "on_ask_us": "N"
+   },
+   {
+    "part_number": "09257",
+    "brand": "3M",
+    "name": "Hookit Gold Disc",
+    "description": "6 in, P320, 50 per box",
+    "price": "",
+    "photo_link": "",
+    "drawing": "disc",
+    "color": "#d9a21b",
+    "on_shelf": "Y",
+    "shelf_order": "5",
+    "on_ask_us": "Y"
+   },
+   {
+    "part_number": "06724",
+    "brand": "3M",
+    "name": "Plastic Sheeting",
+    "description": "16 ft x 400 ft roll",
+    "price": "",
+    "photo_link": "",
+    "drawing": "roll",
+    "color": "#6aa9d8",
+    "on_shelf": "Y",
+    "shelf_order": "6",
+    "on_ask_us": "N"
+   },
+   {
+    "part_number": "VS1000",
+    "brand": "Axalta",
+    "name": "Surface Cleaner",
+    "description": "Takes off wax, oil and silicone",
+    "price": "",
+    "photo_link": "",
+    "drawing": "jug",
+    "color": "#2a6cc4",
+    "on_shelf": "Y",
+    "shelf_order": "7",
+    "on_ask_us": "Y"
+   },
+   {
+    "part_number": "33430S",
+    "brand": "ChromaPremier Pro",
+    "name": "Primer Filler",
+    "description": "High build, easy to sand",
+    "price": "",
+    "photo_link": "",
+    "drawing": "can",
+    "color": "#5b6675",
+    "on_shelf": "Y",
+    "shelf_order": "8",
+    "on_ask_us": "N"
+   },
+   {
+    "part_number": "CC3500",
+    "brand": "Cromax",
+    "name": "Multi-Use Clearcoat",
+    "description": "Spot, panel and overall",
+    "price": "",
+    "photo_link": "",
+    "drawing": "can",
+    "color": "#c7202f",
+    "on_shelf": "N",
+    "shelf_order": "",
+    "on_ask_us": "Y"
+   },
+   {
+    "part_number": "496-00",
+    "brand": "Nason",
+    "name": "SelectClear Spot Clear",
+    "description": "Fast spot and panel repairs",
+    "price": "",
+    "photo_link": "",
+    "drawing": "quart",
+    "color": "#1e8fd6",
+    "on_shelf": "N",
+    "shelf_order": "",
+    "on_ask_us": "N"
+   }
+  ],
+  "Slides": [
+   {
+    "order": "1",
+    "slide": "today",
+    "show": "Y",
+    "seconds": "12",
+    "tagline": "Painting today? Check the air.",
+    "footer": "WALK-INS WELCOME"
+   },
+   {
+    "order": "2",
+    "slide": "bare",
+    "show": "Y",
+    "seconds": "10",
+    "tagline": "Restoring a classic?",
+    "footer": "TAKE YOUR TIME. WE WILL HELP."
+   },
+   {
+    "order": "3",
+    "slide": "shelf",
+    "show": "Y",
+    "seconds": "12",
+    "tagline": "Forgot something? We have it.",
+    "footer": "PRICES AT THE COUNTER"
+   },
+   {
+    "order": "4",
+    "slide": "spotlight",
+    "show": "Y",
+    "seconds": "10",
+    "tagline": "Pro pick of the month.",
+    "footer": "ASK FOR A SAMPLE"
+   },
+   {
+    "order": "5",
+    "slide": "ask",
+    "show": "Y",
+    "seconds": "10",
+    "tagline": "Ask us anything. Really.",
+    "footer": "WALK-INS WELCOME"
+   },
+   {
+    "order": "6",
+    "slide": "panel",
+    "show": "Y",
+    "seconds": "10",
+    "tagline": "Only painting a panel or two?",
+    "footer": "ASK FOR A PANEL MIX"
+   }
+  ],
+  "Slide Text": [
+   {
+    "slide": "today",
+    "field": "activator_heading",
+    "value": "MATCH YOUR ACTIVATOR TO THE DAY"
+   },
+   {
+    "slide": "today",
+    "field": "activator_note",
+    "value": "Activators are rated by temperature. Ask us which one fits your booth."
+   },
+   {
+    "slide": "bare",
+    "field": "kicker",
+    "value": "THE WHOLE REPAIR, ONE STOP"
+   },
+   {
+    "slide": "bare",
+    "field": "headline",
+    "value": "Bare metal to clear."
+   },
+   {
+    "slide": "bare",
+    "field": "subline",
+    "value": "Tell us the job. We hand you every step."
+   },
+   {
+    "slide": "shelf",
+    "field": "feature_kicker",
+    "value": "CLEAR OF THE MONTH"
+   },
+   {
+    "slide": "shelf",
+    "field": "feature_part",
+    "value": "CC3500"
+   },
+   {
+    "slide": "shelf",
+    "field": "feature_title",
+    "value": "CROMAX CC3500"
+   },
+   {
+    "slide": "shelf",
+    "field": "feature_line",
+    "value": "Multi-use 2K clear for spot, panel and overall repairs."
+   },
+   {
+    "slide": "shelf",
+    "field": "feature_price",
+    "value": ""
+   },
+   {
+    "slide": "shelf",
+    "field": "feature_price_note",
+    "value": "per gallon kit"
+   },
+   {
+    "slide": "spotlight",
+    "field": "kicker",
+    "value": "FILLER SPOTLIGHT"
+   },
+   {
+    "slide": "spotlight",
+    "field": "part",
+    "value": "0644"
+   },
+   {
+    "slide": "spotlight",
+    "field": "headline",
+    "value": "U-POL Tectium Elite"
+   },
+   {
+    "slide": "spotlight",
+    "field": "subline",
+    "value": "Part 0644 · Lightweight polyester filler"
+   },
+   {
+    "slide": "spotlight",
+    "field": "fact1_title",
+    "value": "Builds like filler"
+   },
+   {
+    "slide": "spotlight",
+    "field": "fact1_text",
+    "value": "Fills the low spots in one product."
+   },
+   {
+    "slide": "spotlight",
+    "field": "fact2_title",
+    "value": "Smooth like glaze"
+   },
+   {
+    "slide": "spotlight",
+    "field": "fact2_text",
+    "value": "Pinhole-free, so you can often skip the glaze."
+   },
+   {
+    "slide": "spotlight",
+    "field": "fact3_title",
+    "value": "Prime in about 20 minutes"
+   },
+   {
+    "slide": "spotlight",
+    "field": "fact3_text",
+    "value": "Back to work faster."
+   },
+   {
+    "slide": "spotlight",
+    "field": "footnote",
+    "value": "Prefer 3M? Platinum Plus 01131 is on the shelf too."
+   },
+   {
+    "slide": "spotlight",
+    "field": "price",
+    "value": ""
+   },
+   {
+    "slide": "spotlight",
+    "field": "price_note",
+    "value": "Gallon"
+   },
+   {
+    "slide": "ask",
+    "field": "headline",
+    "value": "Start with a color match."
+   },
+   {
+    "slide": "ask",
+    "field": "body",
+    "value": "Bring the paint code, a part, or the car. We match it and mix it at the counter."
+   },
+   {
+    "slide": "ask",
+    "field": "button",
+    "value": "Talk to us"
+   },
+   {
+    "slide": "ask",
+    "field": "kicker",
+    "value": "PRO FAVORITES ON THE SHELF"
+   },
+   {
+    "slide": "panel",
+    "field": "kicker",
+    "value": "PANEL MIX DEAL"
+   },
+   {
+    "slide": "panel",
+    "field": "big_number",
+    "value": "2"
+   },
+   {
+    "slide": "panel",
+    "field": "big_word",
+    "value": "PANELS"
+   },
+   {
+    "slide": "panel",
+    "field": "big_line",
+    "value": "One booth. No waste."
+   },
+   {
+    "slide": "panel",
+    "field": "price",
+    "value": ""
+   },
+   {
+    "slide": "panel",
+    "field": "price_note",
+    "value": "Only"
+   },
+   {
+    "slide": "panel",
+    "field": "circle_title",
+    "value": "Two panels, one booth, no waste."
+   },
+   {
+    "slide": "panel",
+    "field": "check1",
+    "value": "Matched to your paint code"
+   },
+   {
+    "slide": "panel",
+    "field": "check2",
+    "value": "Mixed for two panels"
+   },
+   {
+    "slide": "panel",
+    "field": "check3",
+    "value": ""
+   },
+   {
+    "slide": "panel",
+    "field": "pill",
+    "value": "We mix to the panel, not the gallon."
+   }
+  ],
+  "Repair Steps": [
+   {
+    "step": "1",
+    "word": "CLEAN",
+    "part_number": "VS1000"
+   },
+   {
+    "step": "2",
+    "word": "FILL",
+    "part_number": "0644"
+   },
+   {
+    "step": "3",
+    "word": "GLAZE",
+    "part_number": "416"
+   },
+   {
+    "step": "4",
+    "word": "SAND",
+    "part_number": "09257"
+   },
+   {
+    "step": "5",
+    "word": "PRIME",
+    "part_number": "33430S"
+   },
+   {
+    "step": "6",
+    "word": "CLEAR",
+    "part_number": "496-00"
+   }
+  ],
+  "Weather Picks": [
+   {
+    "card": "1",
+    "card_title": "PANEL AND OVERALL CLEAR",
+    "part_number": "CC3500",
+    "code": "XK303",
+    "label": "Fast",
+    "note": "Rated 65°F",
+    "min_f": "",
+    "max_f": "70",
+    "signed_off_by": ""
+   },
+   {
+    "card": "1",
+    "card_title": "PANEL AND OVERALL CLEAR",
+    "part_number": "CC3500",
+    "code": "XK305",
+    "label": "Medium",
+    "note": "Rated 75°F",
+    "min_f": "70",
+    "max_f": "",
+    "signed_off_by": ""
+   },
+   {
+    "card": "2",
+    "card_title": "SPOT AND PANEL CLEAR",
+    "part_number": "496-00",
+    "code": "483-76",
+    "label": "Low temp",
+    "note": "Cool days",
+    "min_f": "",
+    "max_f": "65",
+    "signed_off_by": ""
+   },
+   {
+    "card": "2",
+    "card_title": "SPOT AND PANEL CLEAR",
+    "part_number": "496-00",
+    "code": "483-78",
+    "label": "Mid temp",
+    "note": "Mild days",
+    "min_f": "65",
+    "max_f": "80",
+    "signed_off_by": ""
+   },
+   {
+    "card": "2",
+    "card_title": "SPOT AND PANEL CLEAR",
+    "part_number": "496-00",
+    "code": "483-79",
+    "label": "High temp",
+    "note": "Hot days",
+    "min_f": "80",
+    "max_f": "",
+    "signed_off_by": ""
+   }
+  ]
+ }
+}

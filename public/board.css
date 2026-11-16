@@ -1,0 +1,14 @@
+@font-face { font-family: "Archivo Black"; font-weight: 400; src: url("fonts/archivo-black-latin-400-normal.woff2") format("woff2"); font-display: block; }
+@font-face { font-family: "Figtree"; font-weight: 400; src: url("fonts/figtree-latin-400-normal.woff2") format("woff2"); font-display: block; }
+@font-face { font-family: "Figtree"; font-weight: 500; src: url("fonts/figtree-latin-500-normal.woff2") format("woff2"); font-display: block; }
+@font-face { font-family: "Figtree"; font-weight: 600; src: url("fonts/figtree-latin-600-normal.woff2") format("woff2"); font-display: block; }
+@font-face { font-family: "Figtree"; font-weight: 700; src: url("fonts/figtree-latin-700-normal.woff2") format("woff2"); font-display: block; }
+@font-face { font-family: "Figtree"; font-weight: 800; src: url("fonts/figtree-latin-800-normal.woff2") format("woff2"); font-display: block; }
+@font-face { font-family: "Figtree"; font-weight: 900; src: url("fonts/figtree-latin-900-normal.woff2") format("woff2"); font-display: block; }
+
+html, body { margin: 0; height: 100%; overflow: hidden; background: #fff; cursor: none; }
+#stage { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; transform-origin: 0 0; font-family: "Figtree", sans-serif; color: #14233a; }
+.slide { position: absolute; inset: 0; display: flex; flex-direction: column; background: #fff; opacity: 0; transition: opacity .6s ease; }
+.slide.on { opacity: 1; }
+.slide .body { flex: 1; min-height: 0; box-sizing: border-box; padding: 44px 72px 40px; display: flex; gap: 44px; align-items: stretch; }
+.slide * { box-sizing: border-box; }

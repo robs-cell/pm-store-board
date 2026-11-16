@@ -1,0 +1,12 @@
+{
+  // Paint Masters Store Board
+  "name": "pm-store-board",
+  "main": "src/worker.js",
+  "compatibility_date": "2026-11-01",
+  "assets": { "directory": "./public", "binding": "ASSETS" },
+  "vars": {
+    // Paste the Google Sheet ID here (the long code between /d/ and /edit in the Sheet's address).
+    // Leave empty to run the board on its built-in sample data.
+    "SHEET_ID": ""
+  }
+}
