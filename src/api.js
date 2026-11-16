@@ -1,5 +1,5 @@
-// Paint Masters Store Board — Cloudflare Worker
-// Serves the board page (from /public) and three small helper endpoints:
+// Paint Masters Store Board — Cloudflare Pages Functions helpers
+// The board page is served from /public. These three endpoints back it:
 //   /api/data     → every tab of the Google Sheet as JSON
 //   /api/weather  → National Weather Service hourly forecast for a store
 //   /api/img      → a Google Drive photo, cached
@@ -8,19 +8,18 @@
 const TABS = ["Stores", "Products", "Slides", "Slide Text", "Repair Steps", "Weather Picks"];
 const UA = "PaintMastersStoreBoard/1.0 (paintmastersga.com)";
 
-export default {
-  async fetch(request, env, ctx) {
-    const url = new URL(request.url);
-    try {
-      if (url.pathname === "/api/data") return await sheetData(env, ctx);
-      if (url.pathname === "/api/weather") return await weather(url, ctx);
-      if (url.pathname === "/api/img") return await drivePhoto(url, ctx);
-    } catch (err) {
-      return json({ error: String(err && err.message || err) }, 502);
-    }
-    return env.ASSETS.fetch(request);
-  },
-};
+// Called by functions/api/[[route]].js for every /api/* request.
+export async function handleApi(request, env, ctx) {
+  const url = new URL(request.url);
+  try {
+    if (url.pathname === "/api/data") return await sheetData(env, ctx);
+    if (url.pathname === "/api/weather") return await weather(url, ctx);
+    if (url.pathname === "/api/img") return await drivePhoto(url, ctx);
+  } catch (err) {
+    return json({ error: String(err && err.message || err) }, 502);
+  }
+  return json({ error: "not found" }, 404);
+}
 
 function json(body, status = 200, maxAge = 0) {
   return new Response(JSON.stringify(body), {
