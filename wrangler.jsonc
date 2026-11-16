@@ -7,6 +7,6 @@
   "vars": {
     // Paste the Google Sheet ID here (the long code between /d/ and /edit in the Sheet's address).
     // Leave empty to run the board on its built-in sample data.
-    "SHEET_ID": ""
+    "SHEET_ID": "1FQZOkXwbWa8w0CNQBxG5p06MyVxxEMPXNm_HjAfnYbE"
   }
 }
